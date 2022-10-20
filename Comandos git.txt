@@ -1,0 +1,18 @@
+git init // iniciar o git, a parte de versionamento do sistema
+git status //para ver quais arquivos ainda não adicionados ao versionamento.
+git add . //adicionar os arquivos que ainda não estão adicionados ao versionamento.
+git commit –m “commit inicial” // uma mensagem vai representar o versionamento
+git config --global user.email seuemail@exemplo.com
+git config --global user.name nomedeusuario
+git remote add origin caminhodoseuprojetonogithub
+git branch -M main //até aqui é git 
+git push -u origin main  // enviar seus arquivos para o github
+git status // para ver se tem alguma alteração
+git add . //para adicionar aos arquivos alterados para o versionamento
+git commit –m “suamensagem” // adicionando uma mensagem ao seu versionamento
+git push // esse comando vai enviar os novos arquivos ou arquivos ao github
+git branch nomedabrach  //para criar branch
+git branch  // ver as branch
+git checkout nomedabrach //mudar de branch
+
+
